@@ -1,3 +1,6 @@
+import { LocalStorage } from 'node-localstorage/';
+
+global.localStorage = new LocalStorage('./local_storage');
 const prefix = 'AuthDB';
 
 // source: https://discourse.mozilla.org/t/efficient-storage-of-arraybuffer-uint8array/59698/3

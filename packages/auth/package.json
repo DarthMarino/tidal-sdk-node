@@ -37,7 +37,9 @@
   "dependencies": {
     "@tidal-music/auth": "workspace:*",
     "@tidal-music/common": "workspace:^",
-    "@tidal-music/true-time": "workspace:^"
+    "@tidal-music/true-time": "workspace:^",
+    "@types/node-localstorage": "1.3.3",
+    "node-localstorage": "3.0.5"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "1.6.0",
